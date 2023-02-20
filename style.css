@@ -27,7 +27,7 @@ body {
 
 span {
     background: linear-gradient(90deg, #00F5A0 0%, #00D9F5 100%);
-    -webkit-background-clip : text;
+    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
@@ -334,7 +334,7 @@ button {
     margin: -1px;
 }
 
-.h1tag{
+.h1tag {
     display: flex;
     flex-direction: row;
     padding: 0px 0px 0px 40px;
@@ -539,6 +539,369 @@ button {
     margin: 30px 0px;
 }
 
-#default{
+#default {
     border-radius: 12px 0px 0px 0px;
 }
+
+
+/* Media Query */
+
+@media only screen and (max-width: 1200px){
+        body {
+        margin: auto;
+    }
+
+    .alcacruz {
+        width: 100%;
+        height: 100vh;
+    }
+
+
+}
+
+@media only screen and (max-width: 768px) and (min-width: 576px) {
+    body {
+        margin: auto;
+    }
+
+    .alcacruz {
+        width: 100%;
+        height: 100vh;
+    }
+
+    .img-frame{
+        display: none;
+    }
+
+    .invite-your-colleagues {
+        display: flex;
+        flex-direction: column;
+        padding: 0px 20px;
+    }
+
+    .invite-your-colleagues-img{
+        width: 100%;
+        height: 887px;
+        background-size: cover;
+    }
+
+    .invite-your-colleagues-text{
+        width: 100%;
+        height: auto;
+        margin-top: 20px;
+    }
+
+    .invite-your-colleagues-text h1 {
+        width: 100%;
+        height: auto;
+        font-size: 28px;
+        line-height: 35px;
+        text-align: left;
+        margin: 0px;
+    }
+
+    .invite-your-colleagues-text p{
+        width: 100%;
+        height: auto;
+        text-align: left;
+        margin: 18px 0px;
+    }
+
+    button {
+        width: 100%;
+        height: 48px;
+    }
+
+    .navbar{
+        padding: 0px 20px;
+        margin: 15px 0px 0px;
+    }
+
+    .timer {
+        width: 185px;
+        height: 40px;
+        justify-content: center;
+    }
+
+    .timer h1{
+        width: 79px;
+        height: 26px;
+        font-size: 14px;
+    }
+
+    .move-on{
+        padding: 0px 20px;
+        margin: 15px 0px 10px 0px;
+    }
+
+    .move-on-text h1{
+        width: auto;
+        height: auto;
+        font-size: 24px;
+    }
+
+    .rounds{
+        justify-content: space-between;
+        padding: 0px 20px;
+    }
+
+    .h1tag {
+        padding: 0px 20px;
+    }
+
+    .h1tag h1{
+        margin-left: 0px;
+        font-size: 20px;
+    }
+
+    .h1tag img{
+        margin: 0px 15px 0px 0px;
+    }
+
+    .video-section img{
+        height: 272px;
+    }
+
+    .absolute img {
+        width: 70px;
+        height: 70px;
+    }
+
+    .absolute {
+        position: absolute;
+        top: 44%;
+        left: 45%;
+    }
+
+    .reatings {
+        padding: 0px 20px;
+    }
+
+    .Kingdom {
+        display: none;
+    }
+
+    .hrline {
+        margin: 15px 0px 0px;
+    }
+
+    .play-video-player img {
+        max-width: 100%;
+        height: 328px;
+        margin: auto;
+    }
+
+    .play-video-button{
+        padding: 0px 20px;
+        align-items: center;
+    }
+
+    .none3{
+        display: none;
+    }
+    
+    .video-slider{
+        display: flex;
+        padding: 0px 20px;
+    }
+
+    .display{
+        display: none;
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        margin: auto;
+    }
+
+    .alcacruz {
+        width: 100%;
+        height: 100vh;
+    }
+
+    .invite-your-colleagues {
+        display: flex;
+        flex-direction: column;
+        padding: 0px 20px;
+    }
+
+    .invite-your-colleagues-img{
+        width: 100%;
+        height: 470px;
+        background-size: cover;
+    }
+
+    .invite-your-colleagues-text{
+        width: 100%;
+        height: auto;
+        margin-top: 20px;
+    }
+
+    .invite-your-colleagues-text h1 {
+        width: 100%;
+        height: auto;
+        font-size: 25px;
+        line-height: 35px;
+        text-align: left;
+        margin: 0px;
+    }
+
+    .invite-your-colleagues-text p{
+        width: 100%;
+        height: auto;
+        text-align: left;
+        margin: 15px 0px    ;
+    }
+
+    button {
+        width: 100%;
+        height: 48px;
+    }
+
+    .img-frame {
+        display: none;
+    }
+
+    .navbar{
+        padding: 0px 20px;
+        margin: 15px 0px 0px;
+    }
+
+    .timer {
+        width: 185px;
+        height: 40px;
+        justify-content: center;
+    }
+
+    .timer h1{
+        width: 79px;
+        height: 26px;
+        font-size: 13px;
+    }
+
+    .move-on{
+        padding: 0px 20px;
+        margin: 15px 0px 10px 0px;
+    }
+
+    .move-on-text h1{
+        width: auto;
+        height: auto;
+        font-size: 22px;
+    }
+
+    .Comment{
+        display: none;
+    }
+
+    .rounds{
+        justify-content: space-between;
+        padding: 0px 20px;
+    }
+
+    .h1tag {
+        padding: 0px 20px;
+    }
+
+    .h1tag h1{
+        margin-left: 0px;
+        font-size: 20px;
+    }
+
+    .h1tag img{
+        margin: 0px 15px 0px 0px;
+    }
+
+    .video-section img{
+        height: 200px;
+    }
+
+    .absolute img {
+        width: 70px;
+        height: 70px;
+    }
+
+    .absolute {
+        position: absolute;
+        top: 41%;
+        left: 41%;
+    }
+
+    .reatings {
+        padding: 0px 20px;
+    }
+
+    .Kingdom {
+        display: none;
+    }
+
+    .hrline {
+        margin: 15px 0px 0px;
+    }
+
+    .play-video-player img {
+        max-width: 100%;
+        height: 240px;
+        margin: auto;
+    }
+
+    .play-video-button{
+        padding: 0px 20px;
+        align-items: center;
+    }
+
+    .none{
+        display: none;
+    }
+    
+    .video-slider{
+        display: block;
+        padding: 0px 20px;
+    }
+
+    .video-none{
+        width: 100%;
+    }
+
+}
+
+
+/* 
+    .invite-your-colleagues{
+        display: none;
+    }
+
+    .img-frame{
+        display: none;
+    }
+
+    .watch-video{
+        display: none;
+    }
+
+    .hrline{
+        display: none;
+    }
+
+    .h1tag{
+        display: none;
+    }
+
+    .play-video{
+        display: none;
+    }
+
+    .reatings{
+        display: none;
+    }
+
+    .Kingdom{
+        display: none;
+    }
+
+    .watch-video{
+        display: none;
+    }
+ */
