@@ -263,7 +263,6 @@ button {
     font-size: 34px;
     line-height: 40px;
     color: #191919;
-    margin-left: 12px;
 }
 
 .Comment {
@@ -278,7 +277,7 @@ button {
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 0px 0px 0px 64px;
+    padding: 0px 0px 0px 40px;
     border-bottom: 1px solid rgba(25, 25, 25, 0.1);
 }
 
@@ -340,6 +339,10 @@ button {
     padding: 0px 0px 0px 40px;
 }
 
+.marginright{
+    margin-right: 15px;
+}
+
 .h1tag h1 {
     width: 87px;
     height: 30px;
@@ -349,7 +352,7 @@ button {
     font-size: 24px;
     line-height: 30px;
     color: #191919;
-    margin-left: 12px;
+    margin: 30px 0px 30px 0px   ;
 }
 
 .absolute {
@@ -419,7 +422,6 @@ button {
     line-height: 24px;
     color: #191919;
     padding: 0px 40px 0px;
-    margin-bottom: 0px;
 }
 
 /* play video player */
@@ -546,7 +548,44 @@ button {
 
 /* Media Query */
 
-@media only screen and (max-width: 1100px) {
+@media only screen and (min-width: 1500px){
+    body{
+        margin: auto;
+    }
+
+    .display{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1500px) {
+    body {
+        margin: auto;
+    }
+
+    .img-frame{
+        width: 88%;
+    }
+
+    .rounds{
+        padding: 0px 40px;
+    }
+
+    .h1tag h1{
+        margin-left: 0px;
+    }
+
+    .video-slider{
+        max-width: 1350px;
+    }
+
+    .play-video-player{
+        max-width: 1360px;
+    }
+}
+
+
+@media only screen and (max-width: 1400px) {
     body {
         margin: auto;
     }
@@ -594,12 +633,12 @@ button {
     }
 
     .video-section img{
-        height: 370px;
+        height: auto;
     }
 
     .play-video-player img {
-        max-width: 96%;
-        height: 580px;
+        max-width: 96.6%;
+        height: auto;
         margin: auto;
         padding: 0px 20px;
     }
@@ -615,9 +654,77 @@ button {
     .display{
         display: none;
     }
+
+    .move-on{
+        padding: 0px 20px;
+    }
+
+    .rounds{
+        padding: 0px 20px;
+    }
+
+    .h1tag{
+        padding: 0px 20px;
+    }
+
+    .absolute {
+        position: absolute;
+        top: 44%;
+        left: 46%;
+    }
+
+    .reatings{
+        padding: 0px 20px;
+    }
+
+    .Kingdom{
+        padding: 0px 20px;
+    }
+
+    .play-video-button{
+        padding: 0px 20px;
+    }
+
+    .video-slider{
+        max-width: 1380px;
+    }
 }
 
-@media only screen and (max-width: 768px) and (min-width: 576px) {
+@media only screen and (max-width: 1200px){
+    body{
+        margin: auto;
+    }
+
+    .play-video-player img{
+        max-width: 96%;
+    }
+
+    .none5{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1024px){
+    
+    body{
+        margin: auto;
+    }
+
+    .invite-your-colleagues-img {
+        height: 591px;
+        background-size: cover;
+    }
+
+    .play-video-player img {
+        max-width: 95.7%;
+    }
+
+    .none8{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 935px) and (min-width: 576px) {
     body {
         margin: auto;
     }
@@ -712,8 +819,8 @@ button {
         font-size: 20px;
     }
 
-    .h1tag img {
-        margin: 0px 15px 0px 0px;
+    .marginright{
+        margin-right: 15px;
     }
 
     .video-section img {
@@ -772,8 +879,8 @@ button {
     }
 
     .play-video-player img {
-        max-width: 100%;
-        height: 310px;
+        max-width: 93.1%;
+        height: auto;
         margin: auto;
         padding: 0px 20px;
     }
@@ -911,8 +1018,8 @@ button {
     }
 
     .play-video-player img {
-        max-width: 89.2%;
-        height: 210px;
+        max-width: 91%;
+        height: auto;
         margin: auto;
         padding: 0px 20px;
     }
@@ -937,6 +1044,10 @@ button {
 
     .video-section {
         padding: 0px 20px;
+    }
+
+    .display{
+        display: flex;
     }
 
 }
